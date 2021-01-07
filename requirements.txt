@@ -17,7 +17,7 @@ fontmath==0.6.0           # via fontmake
 fonttools[lxml,ufo,unicode,woff]==4.15.0  # via -r requirements.in, booleanoperations, cffsubr, compreffor, cu2qu, fontmake, fontmath, glyphslib, psautohint, statmake, ufo2ft, ufolib2, vttlib
 fs==2.4.11                # via fonttools
 glyphslib==5.2.0          # via fontmake
-lxml==4.5.2               # via fonttools
+lxml==4.6.2               # via fonttools
 psautohint==2.1.0         # via -r requirements.in
 pyclipper==1.2.0          # via booleanoperations
 pyparsing==2.4.7          # via vttlib
@@ -27,7 +27,6 @@ skia-pathops==0.4.1       # via -r requirements.in
 statmake==0.3.0           # via -r requirements.in
 ufo2ft[cffsubr]==2.16.0   # via fontmake
 ufolib2==0.8.0            # via fontmake, glyphslib, vttlib
-unicodedata2==13.0.0.post2  # via fonttools
 vttlib==0.9.1.post2       # via -r requirements.in
 zopfli==0.1.7             # via fonttools
 
