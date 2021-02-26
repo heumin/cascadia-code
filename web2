@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <script src="../p5.js"></script>
+  <script src="study_01.js"></script>
+</head>
+<body>
+  <h1>JavaScript</h1>
+  <script>
+    document.write('hello world');
+  </script>
+  hello world
+</body>
+</html>
+
+function setup() {
+  createCanvas(600, 600);
+}
+
+function draw() {
+  background(0);
+  for(let i = 50; i < width-50; i += 50) {
+    noFill();
+    stroke(i,0,i);
+    strokeWeight(4);
+    line(i, mouseY, mouseX, i);
+  }
+}
